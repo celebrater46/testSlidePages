@@ -8,7 +8,7 @@ let currentPage = 1;
 const createLines = (currentPage) => {
     let str = "";
     for (let i = 0; i < 15; i++){
-        str += "<p>これはテストです</p>";
+        str += "<p>「これはテストです」</p>";
     }
     str += "<p><a href='#p-" + (currentPage + 1) + "'>次のページへ</a></p>";
     return str;
